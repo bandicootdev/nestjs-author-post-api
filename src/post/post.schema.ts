@@ -15,7 +15,7 @@ export class Post {
   title: string;
 
   @Prop({ type: Boolean })
-  id_deleted: boolean;
+  is_deleted: boolean;
 
   @Prop({ type: Date })
   external_created_at: Date;

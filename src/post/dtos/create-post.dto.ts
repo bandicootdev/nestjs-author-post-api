@@ -8,7 +8,7 @@ import {
   IsUUID,
 } from 'class-validator';
 
-type tagsArray = string[];
+export type tagsArray = string[];
 
 export class CreatePostDto {
   @IsString()
